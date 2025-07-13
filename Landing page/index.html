@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Doto:wght@100..900&family=Pacifico&family=Quicksand:wght@300..700&family=Satisfy&display=swap" rel="stylesheet">
+    <title>Domz Landing page</title>
+</head>
+<body>
+    <div class="navbar dm-sans">
+        <div class="logo satisfy">Domz</div>
+        <div class="menu-toggle" id="mobile-menu">
+            <i id="menu-toggle-icon" class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="hero" id="home">
+        <div class="hero-text dm-sans">
+            <h1>Welcome to Domzzz</h1>
+            <h3>Your one-stop solution for all your needs.</h3>
+            <button class="domz-btn"><a href="#features" class="btn">Get Started</a></button>
+        </div> 
+    </div>
+
+    <div class="features dm-sans" id="features">
+        <h2>Our Features</h2>
+        <div class="feature-cards">
+            <div class="card">
+                <i class="fas fa-rocket"></i>
+                <h3>Fast Performance</h3>
+                <p>Lightning-fast loading times and smooth interactions.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Responsive Design</h3>
+                <p>Perfect display on all devices and screen sizes.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-lock"></i>
+                <h3>Secure Platform</h3>
+                <p>Your data is protected with the latest security measures.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-headset"></i>
+                <h3>24/7 Support</h3>
+                <p>Round-the-clock assistance for all your needs.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="about" id="about">
+        <div class="about-text dm-sans">
+            <h2>About Us</h2>
+            <p>We are dedicated to providing the best solutions for our clients. With years of experience and a passionate team, we deliver outstanding results that exceed expectations.</p>
+        </div>
+    </div>
+
+    <div id="contact" class="contact dm-sans">
+        <h2>Contact Us</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="domz-btn">Send Message</button>    
+        </form>    
+    </div>
+
+    <div class="footer dm-sans">
+        <div class="footer-info">
+            <div class="info">
+                <h3>Contact Info</h3>
+                <p>1234 Alexandria, Egypt.</p>
+                <p>Email: aagfetouh@gmail.com</p>
+            </div>
+            <div class="social">
+            <h3>Follow Us</h3>
+                <a href="https://www.facebook.com/profile.php?id=100004244836082" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/xadham_ahmed?igsh=Z2dhdHF5Mmhocmhk&utm_source=qr" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/adham-ahmed-03ab43245/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-bottom dm-sans">
+            <p>&copy; 2025 Domz. All rights reserved</p>
+    </div>
+
+</body>
+
+<script src="js/main.js"></script>
+</html>
